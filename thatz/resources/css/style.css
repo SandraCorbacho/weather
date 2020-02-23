@@ -1,6 +1,3 @@
-body, html {
-    height: 100vh;
-  }
   .bg {
     /* The image used */
     background-image: url("../img/fondo-desktop.png");
@@ -22,7 +19,7 @@ body, html {
     
   }
   .color1{
-      background-color: #ffffff;
+      background-color:orange
    
   
   }
@@ -34,21 +31,20 @@ body, html {
   .color3{
   background-color: blue;
   }
-  #codigoPostal{
+  #Postal{
       background: transparent;
       color:white;
       padding-left: 25px;
       width: 527px;
-  height: 48px;
-  border-radius: 4px;
-  border: 1px solid #ffffff;
-  margin-bottom: 25px;;
+        height: 48px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        margin-bottom: 25px;;
       
       
   }
   .tamano{
       width: 527px;
-     
   }
   .consultar{
       background-color: #00bde0;
@@ -58,8 +54,16 @@ body, html {
       color:#ffffff;
       height: 48px;
       font-size: 24px;
-  font-weight: 700;
+      font-weight: 700;
   
+  }
+  .buscador{
+    background: transparent;
+    color:white;
+    
+    border:none;
+    margin-top:25px;
+     
   }
   .fuente{
       font-family: 'Muli', sans-serif;
@@ -79,6 +83,7 @@ body, html {
       font-weight: 400;
    
   ;}
+
   #titulo{
       margin-bottom: 50px;
      margin-top: 70px;
@@ -92,3 +97,178 @@ body, html {
      left: 230px;
      bottom: 40px;
   }
+  
+  .tiempo{
+      background-color:black;
+      margin-left: 25px;
+      height:400px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      background-color: rgba(48, 108, 119, 0.7);
+  }
+  
+  .altura{
+      height: 100px;
+  }
+  .altura2{
+    height: 200px;
+}
+.alturaInterior{
+    height: 150px;
+}
+.justificar{
+    text-align: left;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+.imgbuscador{
+    width: 36px;
+    opacity: 0.5;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+.negrita{
+    font-weight: bold;
+    color:#ffffff
+}
+.borde{
+    border-left:1px solid lightgrey;
+    
+}
+.borde2{
+    border-bottom:1px solid lightgrey;
+    padding-bottom: 8px;
+}
+.grande{
+    
+    height: 57px;
+color: #ffffff;
+font-size: 48px;
+font-weight: 300;
+line-height: 48px;
+}
+.numeracion{
+height: 29px;
+color: #ffffff;
+font-size: 24px;
+font-weight: 300;
+line-height: 24px;
+}
+.pequeno{
+    
+    height: 43px;
+    color: #ffffff;
+    font-size: 14px;
+    
+    line-height: 24px;
+    font-weight: 700;
+
+}
+.letra{
+    font-weight: 400;
+    color:lightgrey
+}
+.margen{
+    margin:auto;
+    text-align: center;
+    height: 59px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.espacio{
+    margin-bottom: 40px;
+}
+.tamano1{
+font-size: 3em;
+font-weight: 300;
+}
+.tamano2{
+    font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+}
+.espaciosHoy{
+    margin-bottom: 22px;
+}
+.descripTam{
+    font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.temp{
+    font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+}
+@media screen and (max-width: 1500px){
+    body{
+        background-color: #372019;
+    }
+    .tiempo{
+        height: auto;
+        margin-bottom: 25px;
+        
+    }
+    .alineacion{
+        justify-content: center;
+
+    }
+    .margenInferior{
+        margin-bottom: 50px;
+    }
+    
+    #contenedor1, #contenedor2{
+        margin:25px
+    }
+    .alturas{
+        height:450px;
+    }
+   
+    .sinborde{
+        border-left: 0px;
+    }
+   
+   
+}
+@media screen and (max-width: 700px){
+    .prueb{
+        text-align:center;
+        background-color: blue;
+    }
+i{
+width: 50%
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+background-color: rgba(48, 108, 119, 0.7);
+}
+.margenes0{
+    margin:10px;
+}
+#codigoBusqueda{
+display: none;
+}
+#lupaBuscador{
+  
+    position: relative;
+    top:-70px;
+    left:400px;
+    
+}
+#titulo img{
+    width: 100%;
+}
+#movilCaja1{
+
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+}
+
+}
